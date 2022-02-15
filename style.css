@@ -1,0 +1,6 @@
+.banner {
+  height: 800px;
+  background-image: url("./images/cinema-en-plein-air.jpg");
+  background-size: cover;
+  height: 500px;
+}
