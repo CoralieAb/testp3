@@ -6,13 +6,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Limelight', cursive;
   text-shadow: #940000 1px 1px 2px, #940000 -1px 1px 2px, #940000 -1px -1px 2px, #940000 1px -1px 2px;
   color: #FEC34C;
+  font-size: 2rem;
 }
 
-h2, h3, h4 {
+h3, h4 {
   font-family: 'Patrick Hand', cursive;
   font-weight: bold;
 }
@@ -20,16 +21,22 @@ h2, h3, h4 {
 section > h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #940000;
-  background-color: #FEC34C;
 }
 
 section {
-  margin: 2rem 0;
-  padding-top: 16px;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 5rem 0;
+  }
+  h1, h2 {
+    font-size: 3rem;
+  }
 }
 
 section h2 {
@@ -40,10 +47,6 @@ section h2 {
 /* Main Nav style BEGIN */
 .navbar {
   background-color: #FBF5EF;
-}
-
-.navbar-brand {
-  padding: 0;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -112,6 +115,7 @@ section h2 {
 /* Programmation Nav style END */
 
 /* Programmation style BEGIN */
+
 #programmation h4 {
   color: #FEC34C;
 }
@@ -145,14 +149,36 @@ section h2 {
 #programmation .text-muted {
   color: #4d7388!important;
 }
+
+#programmation .btn {
+  background-color: #940000;
+  color: #FEC34C;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  margin: 1rem 0;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+
+#programmation .btn:hover, #programmation .btn:focus {
+  background-color: #1A2127;
+  transition-timing-function: ease;
+}
 /* Programmation style BEGIN */
 
 /* Actu style BEGIN */
+#actu {
+  background-color: #324d5b;
+}
+
 #actu .card {
   border: none;
   max-width: 700px;
   background-color: #FBF5EF;
   align-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 0 1rem;
 }
 
 #actu .center-item {
@@ -175,6 +201,13 @@ section h2 {
 }
 /* Actu style END */
 
+/* Preinscription style BEGIN */
+#preinscription {
+  background-color: #324d5b;
+}
+/* Preinscription style END */
+
+/* Access style BEGIN */
 #access .card {
   border: none;
   background-color: #FBF5EF;
@@ -191,3 +224,75 @@ section h2 {
   width: 100%;
   max-height: 100%;
 }
+/* Access style END */
+
+/* Préinscription Style BEGIN */
+#preinscription form label {
+  color: #FBF5EF;
+  font-weight: bold;
+}
+
+#preinscription form .text-muted {
+  color: #FBF5EF!important;
+  font-style: italic;
+}
+
+#preinscription .btn {
+  background-color: #FEC34C;
+  margin-top: 2rem;
+  padding: 0.6rem;
+  color: #940000;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#preinscription .btn:hover, #preinscription .btn:focus {
+  background-color: #940000;;
+  color: #FEC34C;
+  transition-timing-function: ease;
+}
+/* Préinscription Style END */
+
+/* Footer Nav style BEGIN */
+footer {
+  background-color: #1A2127;
+  font-size: 0.8rem;
+}
+footer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding-top: 3rem;
+  }
+}
+
+footer p {
+  margin: 0;
+  padding: 1rem;
+}
+
+footer .navbar {
+  background-color: #1A2127;
+}
+
+footer .navbar-custom .navbar-nav > li > a {
+  color: #FBF5EF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+  
+}
+
+footer .navbar-custom .navbar-nav > li > a:hover, footer .navbar-custom .navbar-nav > li > a:focus {
+  /*color: #324D5B;*/
+  text-shadow: none;
+  color: #FEC34C;
+  transition-timing-function: ease;
+}
+/* Footer Nav style END */

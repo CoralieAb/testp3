@@ -27,13 +27,13 @@
             <a class="nav-link active" href="#">ACCUEIL <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#programmation-anchor">PROGRAMMATION</a>
+            <a class="nav-link" href="#programmation">PROGRAMMATION</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#actu">ACTUALITÉS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#access-anchor">ACCÈS</a>
+            <a class="nav-link" href="#access">ACCÈS</a>
           </li>
         </ul>
       </div>
@@ -50,13 +50,106 @@
         </p>
       </div>
     </header>
-    <main class="container">
+    <main class="fluid-container">
       <section id="about">
         <h2>PRÉSENTATION</h2>
-        <p id="programmation-anchor">
+        <p class="container">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem! Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repudiandae voluptates ea commodi nihil, molestias delectus blanditiis illo laboriosam laudantium iste. Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
         </p>
+      </section>
+      <section id="actu">
+        <h2>ACTUALITÉS</h2>
+        <div id="myCarousel" class="carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4 center-item">
+                    <div class="box center-item">
+                      <img src="./images/newspaper-154444_640.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Mon premier article</h4>
+                      <p class="card-text about-text">
+                        <small class="text-muted">Date / Author</small>
+                      </p>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
+                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
+                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
+                      </p>
+                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4 center-item">
+                    <div class="box center-item">
+                      <img src="./images/newspaper-154444_640.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Mon second article</h4>
+                      <p class="card-text about-text">
+                        <small class="text-muted">Date / Author</small>
+                      </p>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
+                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
+                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
+                      </p>
+                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4 center-item">
+                    <div class="box center-item">
+                      <img src="./images/newspaper-154444_640.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Mon troisième article</h4>
+                      <p class="card-text about-text">
+                        <small class="text-muted">Date / Author</small>
+                      </p>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
+                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
+                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
+                      </p>
+                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="programmation">
         <h2>PROGRAMMATION</h2>
@@ -261,96 +354,37 @@
           </div>
         </div>
       </section>
-      <section id="actu">
-        <h2>ACTUALITÉS</h2>
-        <div id="myCarousel" class="carousel" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4 center-item">
-                    <div class="box center-item">
-                      <img src="./images/newspaper-154444_640.png" alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Mon premier article</h4>
-                      <p class="card-text about-text">
-                        <small class="text-muted">Date / Author</small>
-                      </p>
-                      <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
-                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
-                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
-                      </p>
-                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4 center-item">
-                    <div class="box center-item">
-                      <img src="./images/newspaper-154444_640.png" alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Mon second article</h4>
-                      <p class="card-text about-text">
-                        <small class="text-muted">Date / Author</small>
-                      </p>
-                      <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
-                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
-                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
-                      </p>
-                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4 center-item">
-                    <div class="box center-item">
-                      <img src="./images/newspaper-154444_640.png" alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h4 class="card-title">Mon troisième article</h4>
-                      <p class="card-text about-text">
-                        <small class="text-muted">Date / Author</small>
-                      </p>
-                      <p class="card-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Necessitatibus dicta ad voluptatibus fugiat. Libero possimus autem exercitationem!
-                        Tenetur aliquid, maxime ab debitis libero iste dolor labore laborum dolores esse odio?
-                        Ipsam ea sapiente voluptatem deserunt repellendus praesentium in incidunt!
-                      </p>
-                      <p class="card-text"><small class="text-muted">Lire l'article</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <section id="preinscription">
+        <h2>PRÉINSCRIPTION</h2>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Adresse email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
-        </div>
-        <span id="access-anchor"></span>
+          <div class="form-group">
+            <label for="inputDay">Film</label>
+            <select id="inputDay" class="form-control">
+              <optgroup label="Vendredi 5 août">
+                <option selected>20h - Edward aux mains d'argent</option>
+                <option>22h - Big Fish</option>
+              </optgroup>
+              <optgroup label="Samedi 6 août">
+                <option>20h - La haine</option>
+                <option>22h - Enter the void</option>
+              </optgroup>
+              <optgroup label="Dimanche 7 août">
+                <option>20h - Match point</option>
+                <option>22h - Demolition</option>
+              </optgroup>
+              <optgroup label="Lundi 8 août">
+                <option>20h - Into the wild</option>
+                <option>22h - 2001: L'odyssée de l'espace</option>
+              </optgroup>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-block">SE PRÉINSCRIRE</button>
+        </form>
       </section>
       <section id="access">
         <h2>ACCÈS</h2>
@@ -367,7 +401,7 @@
                 <h3 class="card-title">Horaires</h3>
                 <p class="card-text">
                   Tous les soirs<br>
-                  De 21h00 à 00h00<br>
+                  De 20h00 à 00h00<br>
                   Du 5 au 8 août 2022<br>
                 </p>
                 <h3 class="card-title">Accès</h3>
@@ -385,14 +419,31 @@
         </div>
       </section>
     </main>
-
     <footer>
+      <nav class="navbar px-sm-5 navbar-expand-lg navbar-custom">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" width="100" alt="logo" />
+          </a>
+        </div>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mentions légales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Politique de confidentialité</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="text-muted">Copyright © Les films de plein air 2022</p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./tabBehaviour.js"></script>
   </body>
 </html>
